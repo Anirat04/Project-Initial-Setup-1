@@ -84,3 +84,8 @@
 - npm install eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin --save-dev
 
 - npx eslint --init
+
+### Write start script for auto update
+
+- npm i ts-node-dev --save-dev
+- "start:dev": "ts-node-dev --respawn --transpile-only src/server.ts"
